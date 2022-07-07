@@ -1,0 +1,162 @@
+body {
+  background-color: #EEE0DA;
+  font-family: 'Gulzar', serif;
+}
+
+hr {
+  width: 65%;
+  margin: .25rem;
+}
+
+ul {
+  padding-bottom: 15px;
+}
+
+li {
+  font-size: 1.15rem;
+  padding: 10px 0;
+}
+
+/* Welcome Section */
+#hero-page {
+  padding: 15px 50px 0;
+  text-align: center;
+  margin: 0;
+}
+
+.navbar>.container-fluid {
+  align-items: baseline;
+}
+
+.top-container {
+  padding: 12% 10%;
+}
+
+.title {
+  color: #fff;
+  font-size: 9rem;
+  font-weight: bold;
+  margin-bottom: -75px;
+}
+
+.text-box {
+  background-color: #fff;
+  height: 315px;
+  padding: 5%;
+  text-align: left;
+  position: relative;
+  z-index: 10;
+}
+
+.description {
+  font-size: 1.75rem;
+}
+
+.rectangle {
+  background-color: #C7936A;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  height: 52%;
+  width: 23%;
+}
+
+/* Details Section */
+#details {
+  background-color: #fff;
+}
+
+.details-box {
+  padding: 12% 5%;
+}
+
+.details-image {
+  padding: 10%;
+  width: 100%;
+}
+
+.detail-heading {
+  font-size: 3rem;
+  padding: 30px 5px 0;
+}
+
+.detail-text {
+  font-size: 1.25rem;
+  padding: 10px 5px;
+}
+
+/* House Rules */
+#rules {
+  padding: 5% 7%;
+}
+
+.image-box {
+  position: relative;
+  height: 325px;
+  overflow: hidden;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: -200px;
+  opacity: 85%;
+  width: 100%;
+}
+
+.bottom-title {
+  color: #EEE0DA;
+  font-size: 6.5rem;
+  position: absolute;
+  bottom: -61px;
+}
+
+.bottom-textbox {
+  padding: 8%;
+}
+
+.card-header {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: #C7936A;
+  height: 300px;
+  padding: 5% 12%;
+}
+
+.footer-text {
+  font-size: 1rem;
+  margin: 0;
+  padding: 10% 0 1%;
+  opacity: 90%;
+}
+
+.footer-text>em {
+  font-size: 1.75rem;
+}
+
+.icon {
+  height: 30px;
+  padding: inherit;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.no-bullets>li {
+  font-size: .9rem;
+  padding: 5px;
+}
+
+.no-bullets>li>a {
+  color: #000;
+  text-decoration: none;
+}
+
+.no-bullets>li>a:hover {
+  color: #EEE0DA;
+}
